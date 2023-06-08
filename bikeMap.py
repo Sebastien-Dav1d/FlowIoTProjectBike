@@ -10,7 +10,7 @@ def createjson(moyendeD, lon1,lat1,lon2,lat2):
     return tempUrl.json()
 
 bikeStationInfo = {}
-fileLocation = "/home/sebastien.david/exo/Projet/BikeStations.csv"
+fileLocation = "BikeStations.csv"
 #needed to ask for the curl command
 headers = {
     'accept': 'application/json',
